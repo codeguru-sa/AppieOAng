@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('Dosa', 'This is South Indian Dish', 'https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg'),
     new Recipe('Dosa', 'This is South Indian Dish', 'https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg')
   ];
 
